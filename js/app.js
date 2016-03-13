@@ -59,6 +59,20 @@ directive('myMap', function() {
         setMarker(map, new google.maps.LatLng(48.854928, 2.341023), 'Ze Kitchen Gallery', '<b>Ze Kitchen Gallery</b> : mediterranéen, 1 etoile Michelin','images/icons/tuxedo.png');
         setMarker(map, new google.maps.LatLng(48.856560, 2.326689), 'Gaya', '<b>Gaya </b>: 1 etoile Michelin','images/icons/tuxedo.png');
         setMarker(map, new google.maps.LatLng(48.854450, 2.337923), 'Alcazar', '<b>Alcazar </b>: cool et assez bon','images/icons/tuxedo.png');
+        setMarker(map, new google.maps.LatLng(48.854273, 2.330790), 'Ralph', '<b>Le Ralph\'s</b>: américain chic','images/icons/hamburger.png');
+        setMarker(map, new google.maps.LatLng(48.847343, 2.318231), 'Marco Polo', '<b>Patisserie Cyril Lignac </b>: à emporter','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.853048, 2.338647), 'Pizza Chic', '<b>Eclair de Genie</b>: à emporter','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.852098, 2.346457), 'Bocca della Verita', '<b>Odette</b> : choux à la crème','images/icons/dounoughts.png');
+        setMarker(map, new google.maps.LatLng(48.849555, 2.349307), 'Coffee Club', '<b>Aux Merveilleux de Fred</b> : classique','images/icons/dounoughts.png');
+        setMarker(map, new google.maps.LatLng(48.840031, 2.335252), 'Coffee Club', '<b>Il Forno di Napoli</b> : très bonne pizza, à emporter','images/icons/pizza2.png');
+        setMarker(map, new google.maps.LatLng(48.852671, 2.331512), 'Colorova', '<b>Blueberry </b>: maki bar','images/icons/sushi-2.png');
+        setMarker(map, new google.maps.LatLng(48.853151, 2.337829), 'Ze Kitchen Gallery', '<b>Ippudo</b> : spécialiste du ramen','images/icons/sushi-3.png');
+        setMarker(map, new google.maps.LatLng(48.852228, 2.329959), 'Gaya', '<b>Bar de la Croix Rouge </b>: Toasts, Terrasse','images/icons/sun.png');
+        setMarker(map, new google.maps.LatLng(48.858175, 2.356220), 'Alcazar', '<b>Benedict </b>: brunch, souvent la queue, oeufs pochés','images/icons/egg.png');
+        setMarker(map, new google.maps.LatLng(48.857122, 2.358887), 'Colorova', '<b>Miznon </b>: cacher, israelien, fermé samedi','images/icons/meat.png');
+        setMarker(map, new google.maps.LatLng(48.854234, 2.350212), 'Colorova', '<b>Bertie’s CupCakery  </b>: meilleur cupcake Paris','images/icons/dounoughts.png');
+        setMarker(map, new google.maps.LatLng(48.862378, 2.363778), 'Colorova', '<b>Popelini </b>: choux à la crème)','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.842632, 2.328002), 'Colorova', '<b>Café Atelier </b>: bistro, brunch, bon)','images/icons/brunch.png');
         
     };
     
