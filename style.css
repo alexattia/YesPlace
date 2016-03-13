@@ -1,0 +1,20 @@
+#gmaps {
+    width: 38em;
+    height: 38em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.gm-style .gm-style-iw {
+	font-weight: 400;
+	font-family: "Ubuntu";
+    src: url(https://fonts.googleapis.com/css?family=Ubuntu) format("truetype");
+}
+
+.title{
+	font-weight: 400;
+	text-align: center;
+	font-family: "Lemon/Milk";
+    src: url(font/LemonMil.otf) format("truetype");
+}
