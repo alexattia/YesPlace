@@ -46,6 +46,8 @@ directive('myMap', function() {
                 infoWindow.open(map, marker);
             });
         }
+
+        //function searchMarker(name){}
         
         // show the map and place some markers
         initMap();
@@ -71,9 +73,24 @@ directive('myMap', function() {
         setMarker(map, new google.maps.LatLng(48.858175, 2.356220), 'Alcazar', '<b>Benedict </b>: brunch, souvent la queue, oeufs pochés','images/icons/egg.png');
         setMarker(map, new google.maps.LatLng(48.857122, 2.358887), 'Colorova', '<b>Miznon </b>: cacher, israelien, fermé samedi','images/icons/meat.png');
         setMarker(map, new google.maps.LatLng(48.854234, 2.350212), 'Colorova', '<b>Bertie’s CupCakery  </b>: meilleur cupcake Paris','images/icons/dounoughts.png');
-        setMarker(map, new google.maps.LatLng(48.862378, 2.363778), 'Colorova', '<b>Popelini </b>: choux à la crème)','images/icons/cookies.png');
-        setMarker(map, new google.maps.LatLng(48.842632, 2.328002), 'Colorova', '<b>Café Atelier </b>: bistro, brunch, bon)','images/icons/brunch.png');
+        setMarker(map, new google.maps.LatLng(48.862378, 2.363778), 'Colorova', '<b>Popelini </b>: choux à la crème','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.842632, 2.328002), 'Colorova', '<b>Café Atelier </b>: bistro, brunch, bon','images/icons/brunch.png'); 
+        setMarker(map, new google.maps.LatLng(48.844593, 2.331951), 'Bocca della Verita', '<b>Jean Paul Hévin</b> : Chocolatier, Macaron, Cheesecake','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.853903, 2.332277), 'Coffee Club', '<b>Café Pouchkine </b> : salon de thé franco-russe','images/icons/cookies.png');
+        setMarker(map, new google.maps.LatLng(48.848880, 2.334119), 'Coffee Club', '<b>Angelina</b> : peu de couvert, dans le Luxembourg','images/icons/tea.png');
+        setMarker(map, new google.maps.LatLng(48.844716, 2.332012), 'Colorova', '<b>Amorino </b>: glaces','images/icons/ice-cream.png');
+        setMarker(map, new google.maps.LatLng(48.854374, 2.333503), 'Ze Kitchen Gallery', '<b>La Société</b> : costes, belle terrasse, cher','images/icons/tuxedo.png');
+        setMarker(map, new google.maps.LatLng(48.865317, 2.331279), 'Gaya', '<b>La Corte</b>: Italien, très bon, à reserver','images/icons/pasta2.png');
+        setMarker(map, new google.maps.LatLng(48.888272, 2.362532), 'Alcazar', '<b>Bob’s Bake Shop </b>: tartes, bagels, toast, terrasse','images/icons/hot-dog.png');
+        setMarker(map, new google.maps.LatLng(48.867657, 2.331341), 'Colorova', '<b>Little Georgette</b>: tapas francais','images/icons/hot-dog.png');
+        setMarker(map, new google.maps.LatLng(48.866089, 2.345371), 'Colorova', '<b>La Cevicheria</b>: spécialiste des ceviche','images/icons/sushi.png');
+        setMarker(map, new google.maps.LatLng(48.872299, 2.365012), 'Colorova', '<b>Siseng </b>: hamburger blanc, asiatique','images/icons/hamburger2.png');
+        setMarker(map, new google.maps.LatLng(48.864677, 2.333851), 'Colorova', '<b>Sanukiya</b>: spécialiste du Udon)','images/icons/sushi.png');
+        setMarker(map, new google.maps.LatLng(48.877078, 2.340834), 'Colorova', '<b>Caillebotte</b>: Bistrot branché, beau décor','images/icons/vine-glass.png');
+        setMarker(map, new google.maps.LatLng(48.879298, 2.334576), 'Colorova', '<b>Les Canailles</b>: Bistrot gastro, pas très cher','images/icons/vine-glass.png');
+        setMarker(map, new google.maps.LatLng(48.858413, 2.302294), 'Colorova', '<b>Fables de la Fontaine</b>: restaurant gastro, pas cher)','images/icons/vine-glass.png');
         
+
     };
     
     return {
