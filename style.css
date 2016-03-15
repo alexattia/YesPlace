@@ -3,9 +3,16 @@
     height: 38em;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: -10px;
 }
-
+/*.page {
+    background-color: black;
+}
+.html{
+    background-color: red;
+}*/
 .gm-style .gm-style-iw {
 	font-weight: 400;
 	font-family: "Ubuntu";
@@ -14,19 +21,23 @@
 
 .title{
 	font-weight: 400;
+    color: white;
 	text-align: center;
 	font-family: "Lemon/Milk";
-    src: url(font/LemonMil.otf) format("truetype");
+    src: url(font/LemonMilk.otf) format("truetype");
 }
 
 /* Mobile browsers only */
 @media only screen and (max-device-width: 480px) {
     .title{
     font-weight: 400;
-    color: red;
+    color: #19086A;
     text-align: center;
-    font-family: "Lemon/Milk";
-    src: url(font/LemonMil.otf) format("truetype");
+    font-family: 'Lemon', cursive;
+    }
+    .gm-style .gm-style-iw {
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
     }
     #gmaps {
     width: 23em;

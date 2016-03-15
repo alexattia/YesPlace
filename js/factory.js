@@ -271,4 +271,39 @@
                 category:'Japonais',
                 content: '<b>Restaurant A.T </b>: japonais, fusion food, chic',
                 icon: './images/icons/tuxedo.png'
+       },{
+                lat: 48.869122, 
+                lng: 2.368551,
+                title: 'Banh Me Tender',
+                category:'Asiatique',
+                content: '<b>Banh Me Tender</b>: asian street food & vinyl corner',
+                icon: './images/icons/sushi.png'
+       },{
+                lat: 48.888468, 
+                lng: 2.335438,
+                title: 'Très Particulier',
+                category:'Francais Chic',
+                content: '<b>Très Particulier</b>: dans un hotel particulier',
+                icon: './images/icons/tuxedo.png'
+       },{
+                lat: 48.883418, 
+                lng: 2.304452,
+                title: 'Papillon',
+                category:'Francais Chic',
+                content: '<b>Papillon</b>: haute-gastronomie',
+                icon: './images/icons/tuxedo.png'
+       },{
+                lat: 48.883418, 
+                lng: 2.304452,
+                title: 'Renoma',
+                category:'Brunch',
+                content: '<b>Renoma</b>:brunch américain',
+                icon: './images/icons/brunch.png'
+       },{
+                lat: 48.851686, 
+                lng: 2.323227,
+                title: 'Marcel',
+                category:'Brunch',
+                content: '<b>Marcel</b>:brunch',
+                icon: './images/icons/brunch.png'
        }] 

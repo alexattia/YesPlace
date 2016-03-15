@@ -7,7 +7,7 @@ directive('myMap', function() {
         
         // map config
         var mapOptions = {
-            center: new google.maps.LatLng(48.842605, 2.337674),
+            center: new google.maps.LatLng(48.849005, 2.337674),
             zoom: 14,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: true
