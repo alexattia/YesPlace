@@ -16,17 +16,20 @@
 	font-weight: 400;
 	text-align: center;
 	font-family: "Lemon/Milk";
-    src: url(font/LemonMil.otf) format("truetype");
+    src: url(font/LemonMilk.otf) format("truetype");
 }
 
 /* Mobile browsers only */
 @media only screen and (max-device-width: 480px) {
     .title{
     font-weight: 400;
-    color: red;
+    color: #19086A;
     text-align: center;
-    font-family: "Lemon/Milk";
-    src: url(font/LemonMil.otf) format("truetype");
+    font-family: 'Lemon', cursive;
+    }
+    .gm-style .gm-style-iw {
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
     }
     #gmaps {
     width: 23em;
