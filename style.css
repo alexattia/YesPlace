@@ -21,7 +21,7 @@
 
 .title{
 	font-weight: 400;
-    color: white;
+    color: black;
 	text-align: center;
 	font-family: "Lemon/Milk";
     src: url(font/LemonMilk.otf) format("truetype");
@@ -31,9 +31,9 @@
 @media only screen and (max-device-width: 480px) {
     .title{
     font-weight: 400;
-    color: #19086A;
+    color: white;
     text-align: center;
-    font-family: 'Lemon', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     }
     .gm-style .gm-style-iw {
     font-weight: 400;

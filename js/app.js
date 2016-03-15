@@ -1,5 +1,16 @@
-angular.module('myApp', []).
-directive('myMap', function() {
+var app = angular.module('myApp', []);
+angular.module('myApp').controller("myController", ["$scope", "myMarkers", function($scope, myMarkers){
+    $scope.markers= myMarkers; 
+    $scope.searchMarkers = function(arr,obj){
+// loop through your markers array and compare with the entered value in text box.
+
+            for(var i=0; i<arr.length; i++) {
+                if (arr[i] == obj) return true;
+            }
+}
+}]);
+
+app.directive('myMap', ["myMarkers", function(myMarkers) {
     // directive link function
     var link = function(scope, element, attrs) {
         var map, infoWindow;
@@ -67,5 +78,23 @@ directive('myMap', function() {
         replace: true,
         link: link
     };
-});
+}]);
 
+app.filter('marksersFilter', function () {
+        return function (objects, markerObj) {
+            if (!objects)
+                return [];
+            else if (!(markerObj))
+                return objects;
+            else {
+                var result = [];
+                for (var i = 0; i < objects.length; i++) {
+                    // do comparision here, if found push object to result array
+                    if (markerObj.title === objects[i].title) {
+                        result.push(objects[i]); 
+                        }                       
+                }
+                return result;
+            }
+        }
+    });
