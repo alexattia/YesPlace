@@ -313,4 +313,32 @@ app.constant("myMarkers", [{
                 category:'Japonais',
                 content: '<b>Freddy\'s</b> : bar à tapas, un peu',
                 icon: './images/icons/hot-dog.png'
+       },{
+                lat: 48.884705, 
+                lng: 2.298654,
+                title: 'Kahn',
+                category:'Cacher',
+                content: '<b>Kahn</b> : cacher, deli',
+                icon: './images/icons/meat.png'
+       },{
+                lat:48.846617, 
+                lng: 2.369001,
+                title: 'She\’s Cake',
+                category:'Gouter',
+                content: '<b>She\’s Cake</b> : meilleur cheesecake Paris',
+                icon: './images/icons/cookies.png'
+       },{
+                lat:48.880513,
+                lng:  2.339893,
+                title: 'Le Pantruche',
+                category:'Bistrot',
+                content: '<b>Le Pantruche</b> : un des meilleurs bistrots de Paris',
+                icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.879500, 
+                lng:  2.339606,
+                title: 'Maison Mère',
+                category:'Americain',
+                content: '<b>Maison Mère/b> : simple, très bon, fish&chips',
+                icon: './images/icons/hamburger.png'
        }]);
