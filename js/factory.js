@@ -269,6 +269,6 @@
                 lng: 2.354449,
                 title: 'Restaurant A.T',
                 category:'Japonais',
-                content: '<b>Restaurant A.T by </b>: japonais, fusion food, chic',
+                content: '<b>Restaurant A.T </b>: japonais, fusion food, chic',
                 icon: './images/icons/tuxedo.png'
        }] 

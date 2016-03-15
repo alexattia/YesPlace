@@ -18,3 +18,21 @@
 	font-family: "Lemon/Milk";
     src: url(font/LemonMil.otf) format("truetype");
 }
+
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {
+    .title{
+    font-weight: 400;
+    color: red;
+    text-align: center;
+    font-family: "Lemon/Milk";
+    src: url(font/LemonMil.otf) format("truetype");
+    }
+    #gmaps {
+    width: 23em;
+    height: 23em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+}

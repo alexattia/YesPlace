@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>My Yes Place</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
 		<script src="js/angular.js"></script>
         <script src="js/app.js"></script>
         <script src="js/factory.js"></script>
@@ -15,11 +16,21 @@
     <body>
     	<h1 class="title"> My Yes Place </h1>
         <div my-map=""></div>
-        <h2> Research a place : </h2>
+       <!--  <h2> Research a place : </h2>
         <input type="text" ng-model="search" />
         <p ng-repeat="rest in myMarkers.title | filter: search">
         {{ rest.title }}
-        </p>
-
+        </p> -->
+        <!-- <input type="search" placeholder="Search your place" ng-model='search'></input>
+        <p ng-repeat="marker in myMarkers| filter: search"> {{marker.title}}</p>
+        -->
+        <!--  <script type="text/javascript">
+        // function search(arr, obj) {
+        //     for(var i=0; i<arr.length; i++) {
+        //         if (arr[i] == obj) return true;
+        //     }
+        // }
+        </script> -->
+        
     </body>
 </html>
