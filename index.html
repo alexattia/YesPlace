@@ -19,12 +19,16 @@
     <div class="page">
 
     	<h1 class="title"> MY YES PLACE</h1>
-        <p ng-repeat="marker in myMarkers"> {{marker.title}}</p>
+        
         <div my-map=""></div>
-      
-        <input type="search" ng-change="searchMarkers(myMarkers,search)" placeholder="Search your place" ng-model='search'></input>
-        <script type="text/javascript">console.log(myMarkers)</script>
-        <br>
+        
+        <div class="myresearch">
+            <input placeholder="Search a place" ng-model="search">
+                <div ng-show="search.length">
+                <p ng-repeat="marker in markers | filter: search"> <img class="icon-search" ng-src="{{marker.icon}}" /> <label class="textr"> {{marker.title}} </label> </p>
+                </div>
+        </div>
+        
     </div>  
     </body>
 </html>

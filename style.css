@@ -1,18 +1,28 @@
 #gmaps {
     width: 38em;
     height: 38em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
     border-radius: 20px;
     margin-top: -10px;
+    margin-left: 4em;
 }
-/*.page {
-    background-color: black;
+.myresearch{
+    display: inline-block;
+    position: absolute;
+    margin-left: 4em;
+    color: black;
+    font-weight: 400;
+    width: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.html{
-    background-color: red;
-}*/
+.myresearch .icon-search{
+    padding-bottom: -5px;
+}
+.textr{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 2px;
+}
 .gm-style .gm-style-iw {
 	font-weight: 400;
 	font-family: "Ubuntu";
