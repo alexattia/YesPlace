@@ -4,6 +4,7 @@ app.constant("myMarkers", [{
                 lng: 2.335257, 
                 title:'Da Pietro', 
                 category : 'Italien',
+                quartier :'Saint-Germain',
                 content:'<b>Da Pietro </b> : Pizza simple',
                 icon: './images/icons/pizza2.png'
         },{
@@ -11,6 +12,7 @@ app.constant("myMarkers", [{
                 lng: 2.330776, 
                 title:'Pizza Chic', 
                 category : 'Italien',
+                quartier :'Saint-Germain',
                 content:'<b>Pizza Chic </b> : resto sympa',
                 icon: './images/icons/pizza2.png'
         },{
@@ -18,6 +20,7 @@ app.constant("myMarkers", [{
                 lng: 2.338173, 
                 title:'Marco Polo', 
                 category : 'Italien',
+                quartier :'Saint-Germain',
                 content:'<b>Marco Polo </b> : Pâtes à la truffe',
                 icon:'./images/icons/pasta2.png'
         },{
@@ -25,6 +28,7 @@ app.constant("myMarkers", [{
                 lng: 2.331436, 
                 title:'Bocca della Verita', 
                 category : 'Italien',
+                quartier :'Saint-Germain',
                 content:'<b>Bocca della Verita</b> : Bonnes pâtes',
                 icon:'./images/icons/pasta2.png'
         },{
@@ -32,6 +36,7 @@ app.constant("myMarkers", [{
                 lng: 2.335142, 
                 title:'Coffee Club',
                 category: 'Americain',
+                quartier :'Luxembourg-Sèvres',
                 content:'<b>Coffee Club</b> : américain classique',
                 icon:'./images/icons/hamburger.png'
         },{
@@ -39,6 +44,7 @@ app.constant("myMarkers", [{
                 lng: 2.325963, 
                 title:'Colorova', 
                 category: 'Brunch',
+                quartier :'Luxembourg-Sèvres',
                 content:'<b>Colorova </b> : Pâtisserie, Brunch ou Gouter très sympa',
                 icon:'./images/icons/cookies.png'
         },{
@@ -46,6 +52,7 @@ app.constant("myMarkers", [{
                 lng: 2.341023,
                 title: 'Ze Kitchen Gallery', 
                 category: 'Francais Chic',
+                quartier :'Saint-Germain',
                 content: '<b>Ze Kitchen Gallery</b> : mediterranéen, 1 etoile Michelin',
                 icon: './images/icons/tuxedo.png'
        },{ 
@@ -53,6 +60,7 @@ app.constant("myMarkers", [{
                 lng: 2.326689,
                 title: 'Gaya', 
                 category: 'Francais Chic',
+                quartier :'Saint-Germain',
                 content: '<b>Gaya </b> : 1 etoile Michelin', 
                 icon: './images/icons/tuxedo.png'
        },{ 
@@ -60,6 +68,7 @@ app.constant("myMarkers", [{
                 lng: 2.337923,
                 title: 'Alcazar', 
                 category: 'Francais Chic',
+                quartier :'Saint-Germain',
                 content: '<b>Alcazar </b> : cool et assez bon', 
                 icon: './images/icons/tuxedo.png'
        },{ 
@@ -67,6 +76,7 @@ app.constant("myMarkers", [{
                 lng: 2.330790,
                 title: 'Ralph', 
                 category: 'Americain',
+                quartier :'Saint-Germain',
                 content: '<b>Le Ralph\'s</b> : américain chic', 
                 icon: './images/icons/hamburger.png'
        },{      
@@ -74,6 +84,7 @@ app.constant("myMarkers", [{
                 lng: 2.318231,
                 title: 'Patisserie Cyril Lignac', 
                 category: 'Goûter',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Patisserie Cyril Lignac </b> : à emporter',
                 icon: './images/icons/cookies.png'
        },{ 
@@ -81,6 +92,7 @@ app.constant("myMarkers", [{
                 lng: 2.338647,
                 title: 'Eclair de Genie', 
                 category: 'Goûter',
+                quartier :'Saint-Germain',
                 content: '<b>Eclair de Genie</b> : à emporter', 
                 icon: './images/icons/cookies.png'
        },{
@@ -102,6 +114,7 @@ app.constant("myMarkers", [{
                 lng: 2.335252,
                 title: 'Il Forno di Napoli',
                 category: 'Italien',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Il Forno di Napoli</b> : très bonne pizza, à emporter',
                 icon: './images/icons/pizza2.png'
        },{ 
@@ -109,6 +122,7 @@ app.constant("myMarkers", [{
                 lng: 2.331512,
                 title: 'Blueberry',
                 category: 'Japonais',
+                quartier :'Saint-Germain',
                 content: '<b>Blueberry </b> : maki bar',
                 icon: './images/icons/sushi-2.png'
        },{ 
@@ -116,6 +130,7 @@ app.constant("myMarkers", [{
                 lng: 2.337829,
                 title: 'Ippudo',
                 category:'Japonais',
+                quartier :'Saint-Germain',
                 content: '<b>Ippudo</b> : spécialiste du ramen',
                 icon: './images/icons/sushi-3.png'
        },{ 
@@ -123,6 +138,7 @@ app.constant("myMarkers", [{
                 lng: 2.329959,
                 title: 'Bar de la Croix Rouge',
                 category: 'Terrasse',
+                quartier :'Saint-Germain',
                 content: '<b>Bar de la Croix Rouge </b> : Toasts, Terrasse',
                 icon: './images/icons/sun.png'
        },{ 
@@ -130,6 +146,7 @@ app.constant("myMarkers", [{
                 lng: 2.356220,
                 title: 'Benedict',
                 category: 'Brunch',
+                quartier :'Marais-Bastille',
                 content: '<b>Benedict </b> : brunch, souvent la queue, oeufs pochés',
                 icon: './images/icons/egg.png'
        },{
@@ -137,6 +154,7 @@ app.constant("myMarkers", [{
                 lng: 2.358887,
                 title: 'Miznon',
                 category: 'Cacher',
+                quartier :'Marais-Bastille',
                 content: '<b>Miznon </b> : cacher, israelien, fermé samedi',
                 icon: './images/icons/meat.png'
        },{
@@ -144,6 +162,7 @@ app.constant("myMarkers", [{
                 lng: 2.350212,
                 title: 'Bertie’s CupCakery',
                 category: 'Goûter',
+                quartier :'Marais-Bastille',
                 content: '<b>Bertie’s CupCakery  </b> : meilleur cupcake Paris',
                 icon: './images/icons/dounoughts.png'
        },{
@@ -151,6 +170,7 @@ app.constant("myMarkers", [{
                 lng: 2.363778,
                 title: 'Popelini',
                 category: 'Goûter',
+                quartier :'Marais-Bastille',
                 content: '<b>Popelini </b> : choux à la crème',
                 icon: './images/icons/cookies.png'
        },{
@@ -158,6 +178,7 @@ app.constant("myMarkers", [{
                 lng: 2.328002,
                 title: 'Café Atelier',
                 category: 'Brunch',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Café Atelier </b> : bistro, brunch, bon',
                 icon: './images/icons/brunch.png' 
        },{
@@ -165,6 +186,7 @@ app.constant("myMarkers", [{
                 lng: 2.331951,
                 title: 'Jean Paul Hévin',
                 category: 'Goûter',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Jean Paul Hévin</b> : Chocolatier, Macaron, Cheesecake',
                 icon: './images/icons/cookies.png'
        },{
@@ -172,12 +194,14 @@ app.constant("myMarkers", [{
                 lng: 2.332277,
                 title: 'Café Pouchkine',
                 category: 'Goûter',
+                quartier :'Saint-Germain',
                 content: '<b>Café Pouchkine </b> : salon de thé franco-russe',
                 icon: './images/icons/cookies.png'
        },{
                 lat: 48.848880,lng: 2.334119,
                 title: 'Angelina',
                 category: 'Goûter',
+                quartier :'Saint-Germain',
                 content: '<b>Angelina</b> : peu de couvert, dans le Luxembourg',
                 icon: './images/icons/tea.png'
        },{
@@ -185,6 +209,7 @@ app.constant("myMarkers", [{
                 lng: 2.332012,
                 title: 'Amorino',
                 category: 'Goûter',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Amorino </b> : glaces',
                 icon: './images/icons/ice-cream.png'
        },{
@@ -192,13 +217,15 @@ app.constant("myMarkers", [{
                 lng: 2.333503,
                 title: 'La Société',
                 category: 'Francais Chic',
+                quartier :'Saint-Germain',
                 content: '<b>La Société</b> : costes, belle terrasse, cher',
                 icon: './images/icons/tuxedo.png'
        },{
                 lat: 48.865317,
                 lng: 2.331279,
-                title: 'La Corte',
+                title: 'Il Corte',
                 category : 'Italien',
+                quartier :'Rivoli-Opera',
                 content: '<b>La Corte</b> : Italien, très bon, à reserver',
                 icon: './images/icons/pasta2.png'
         },{
@@ -213,6 +240,7 @@ app.constant("myMarkers", [{
                 lng: 2.331341,
                 title: 'Little Georgette',
                 category: 'Bistrot',
+                quartier :'Rivoli-Opera',
                 content: '<b>Little Georgette</b> : tapas francais',
                 icon: './images/icons/hot-dog.png'
        },{
@@ -220,6 +248,7 @@ app.constant("myMarkers", [{
                 lng: 2.345371,
                 title: 'La Cevicheria',
                 category: 'Asiatique',
+                quartier :'Rivoli-Opera',
                 content: '<b>La Cevicheria</b> : spécialiste des ceviche',
                 icon: './images/icons/sushi.png'
        },{
@@ -234,6 +263,7 @@ app.constant("myMarkers", [{
                 lng: 2.333851,
                 title: 'Sanukiya',
                 category:'Japonais',
+                quartier :'Rivoli-Opera',
                 content: '<b>Sanukiya</b> : spécialiste du Udon',
                 icon: './images/icons/sushi.png'
        },{
@@ -241,6 +271,7 @@ app.constant("myMarkers", [{
                 lng: 2.340834,
                 title: 'Caillebotte',
                 category: 'Bistrot',
+                quartier :'Pigalle-Montmartre',
                 content: '<b>Caillebotte</b> : Bistrot branché, beau décor',
                 icon: './images/icons/vine-glass.png'
        },{
@@ -248,6 +279,7 @@ app.constant("myMarkers", [{
                 lng: 2.334576,
                 title: 'Les Canailles',
                 category: 'Bistrot',
+                quartier :'Pigalle-Montmartre',
                 content: '<b>Les Canailles</b> : Bistrot gastro, pas très cher',
                 icon: './images/icons/vine-glass.png'
        },{
@@ -262,6 +294,7 @@ app.constant("myMarkers", [{
                 lng: 2.344328,
                 title: 'Lengue',
                 category:'Japonais',
+                quartier :'Saint-Germain',
                 content: '<b>Lengue</b> : vrai japonais',
                 icon: './images/icons/sushi.png'
        },{
@@ -283,6 +316,7 @@ app.constant("myMarkers", [{
                 lng: 2.335438,
                 title: 'Très Particulier',
                 category:'Francais Chic',
+                quartier :'Pigalle-Montmartre',
                 content: '<b>Très Particulier</b> : dans un hotel particulier',
                 icon: './images/icons/tuxedo.png'
        },{
@@ -304,6 +338,7 @@ app.constant("myMarkers", [{
                 lng: 2.323227,
                 title: 'Marcel',
                 category:'Brunch',
+                quartier :'Luxembourg-Sèvres',
                 content: '<b>Marcel</b> : brunch',
                 icon: './images/icons/brunch.png'
        },{
@@ -325,6 +360,7 @@ app.constant("myMarkers", [{
                 lng: 2.369001,
                 title: 'She\’s Cake',
                 category:'Gouter',
+                quartier :'Marais-Bastille',
                 content: '<b>She\’s Cake</b> : meilleur cheesecake Paris',
                 icon: './images/icons/cookies.png'
        },{
@@ -332,12 +368,14 @@ app.constant("myMarkers", [{
                 lng: 2.339893,
                 title: 'Le Pantruche',
                 category:'Bistrot',
+                quartier :'Pigalle-Montmartre',
                 content: '<b>Le Pantruche</b> : un des meilleurs bistrots de Paris',
                 icon: './images/icons/vine-glass.png'
        },{
                 lat: 48.879500, 
                 lng: 2.339606,
                 title: 'Maison Mère',
+                quartier :'Pigalle-Montmartre',
                 category:'Americain',
                 content: '<b>Maison Mère</b> : simple, très bon, fish&chips',
                 icon: './images/icons/hamburger.png'
@@ -346,6 +384,7 @@ app.constant("myMarkers", [{
                 lng: 2.361424,
                 title: 'The Broken Arm',
                 category:'Concept Store',
+                quartier :'Marais-Bastille',
                 content: '<b>The Broken Arm</b> : concept store, fringues, breakfast et dejeuner',
                 icon: './images/icons/concept.png'
        },{
@@ -355,4 +394,12 @@ app.constant("myMarkers", [{
                 category: 'Bistrot',
                 content: '<b>Salt Restaurant</b> : bistot, specialisé poisson, midi/soir',
                 icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.862198, 
+                lng: 2.362912,
+                title: 'La Petite Table',
+                category: 'Bistrot',
+                quartier :'Marais-Bastille',
+                content: '<b>La Petite Table</b> : brunch, bistrot, midi/soir',
+                icon: './images/icons/hot-dog.png'
        }]);

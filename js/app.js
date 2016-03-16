@@ -7,7 +7,10 @@ angular.module('myApp').controller("myController", ["$scope", "myMarkers", funct
             for(var i=0; i<arr.length; i++) {
                 if (arr[i] == obj) return true;
             }
-}
+    };
+    $scope.$on("gmaps.marker.click", function(event, map, marker) {
+    
+    });
 }]);
 
 app.directive('myMap', ["myMarkers", function(myMarkers) {
@@ -43,6 +46,9 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
 
             marker = new google.maps.Marker(markerOptions);
             markers.push(marker); // add marker to array
+            marker.addListener("click", function() {
+                map.panTo(marker.getPosition());
+            });
             
             google.maps.event.addListener(marker, 'click', function () {
                 // close window if not undefined
