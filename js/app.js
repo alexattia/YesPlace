@@ -66,7 +66,7 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
         // show the map and place some markers
         initMap();
         
-        for (var i = 0; i < 50; i++) {
+        for (var i = 0; i < 60; i++) {
             setMarker(map, new google.maps.LatLng(myMarkers[i].lat, myMarkers[i].lng), myMarkers[i].title, myMarkers[i].content, myMarkers[i].icon);
         }
         
