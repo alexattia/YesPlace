@@ -11,6 +11,11 @@ angular.module('myApp').controller("myController", ["$scope", "myMarkers", funct
     $scope.$on("gmaps.marker.click", function(event, map, marker) {
     
     });
+    //call the directive with the Angular event system
+    //1st parameter of the listener = event
+    $scope.centerMapOnMarker = function (marker){
+        $scope.$broadcast('center-on-marker', marker);
+    }
 }]);
 
 app.directive('myMap', ["myMarkers", function(myMarkers) {
@@ -64,8 +69,13 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
             });
             
         }
-
-        //function searchMarker(name){}
+        //center to the marker   
+        //1st parameter of the listener = event
+        scope.$on('center-on-marker', function (event, args) {
+            console.log(args);
+            var center = new google.maps.LatLng(args.lat, args.lng);
+            map.panTo(center);
+        });
         function returnMarker(){
            window.alert(markers[0].title);
         }
