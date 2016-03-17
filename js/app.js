@@ -72,9 +72,10 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
         //center to the marker   
         //1st parameter of the listener = event
         scope.$on('center-on-marker', function (event, args) {
-            console.log(args);
             var center = new google.maps.LatLng(args.lat, args.lng);
             map.panTo(center);
+            map.setZoom(15);
+            
         });
         function returnMarker(){
            window.alert(markers[0].title);

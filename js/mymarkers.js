@@ -256,6 +256,7 @@ app.constant("myMarkers", [{
                 lng: 2.365012,
                 title: 'Siseng',
                 category: 'Asiatique',
+                quartier :'Canal St-Martin/République',
                 content: '<b>Siseng </b> : hamburger blanc, asiatique',
                 icon: './images/icons/hamburger2.png'
        },{
@@ -331,6 +332,7 @@ app.constant("myMarkers", [{
                 lng: 2.304452,
                 title: 'Renoma',
                 category:'Brunch',
+                quartier :'8e/17e',
                 content: '<b>Renoma</b> : brunch américain',
                 icon: './images/icons/brunch.png'
        },{
@@ -346,13 +348,15 @@ app.constant("myMarkers", [{
                 lng: 2.336889,
                 title: 'Freddy\'s',
                 category:'Japonais',
-                content: '<b>Freddy\'s</b> : bar à tapas, un peu',
+                quartier :'Saint-Germain',
+                content: '<b>Freddy\'s</b> : bar à tapas, un peu japonais',
                 icon: './images/icons/hot-dog.png'
        },{
                 lat: 48.884705, 
                 lng: 2.298654,
                 title: 'Kahn',
                 category:'Cacher',
+                quartier :'8e/17e',
                 content: '<b>Kahn</b> : cacher, deli',
                 icon: './images/icons/meat.png'
        },{
@@ -392,8 +396,9 @@ app.constant("myMarkers", [{
                 lng: 2.378819,
                 title: 'Salt Restaurant',
                 category: 'Bistrot',
+                quartier :'Canal St-Martin/République',
                 content: '<b>Salt Restaurant</b> : bistot, specialisé poisson, midi/soir',
-                icon: './images/icons/vine-glass.png'
+                icon: './images/icons/fish.png'
        },{
                 lat: 48.862198, 
                 lng: 2.362912,
@@ -402,4 +407,12 @@ app.constant("myMarkers", [{
                 quartier :'Marais-Bastille',
                 content: '<b>La Petite Table</b> : brunch, bistrot, midi/soir',
                 icon: './images/icons/hot-dog.png'
+       },{
+                lat: 48.845475, 
+                lng: 2.328716,
+                title: 'Ikra',
+                category: 'Russe',
+                quartier :'Saint-Germain',
+                content: '<b>Ikra</b> : bar/restaurant russe, avec musique',
+                icon: './images/icons/fish.png'
        }]);
