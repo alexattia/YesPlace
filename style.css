@@ -10,7 +10,7 @@
     display: inline-block;
     position: absolute;
     margin-left: 4em;
-    color: black;
+    color: white;
     font-weight: 400;
     width: 350px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -28,22 +28,24 @@
 .myresearch input{
     border-color: black;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
 }
 .textr{
     position: absolute;
     padding-top: 6px;
     padding-left: 2px;
+    color: white;
 }
 .gm-style .gm-style-iw {
 	font-weight: 400;
 	font-family: "Ubuntu";
     src: url(https://fonts.googleapis.com/css?family=Ubuntu) format("truetype");
+    color: black;
 }
 
 .title{
 	font-weight: 400;
-    color: black;
+    color: white;
 	text-align: center;
 	font-family: "Lemon/Milk";
     src: url(font/LemonMilk.otf) format("truetype");
@@ -59,7 +61,7 @@
 @media only screen and (max-device-width: 480px) {
     .title{
     font-weight: 400;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     }

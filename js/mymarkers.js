@@ -100,6 +100,7 @@ app.constant("myMarkers", [{
                 lng: 2.346457,
                 title: 'Odette',
                 category: 'Goûter',
+                quartier :'Quartier Latin',
                 content: '<b>Odette</b> : choux à la crème',
                 icon: './images/icons/dounoughts.png'
        },{
@@ -107,6 +108,7 @@ app.constant("myMarkers", [{
                 lng: 2.349307,
                 title: 'Aux Merveilleux de Fred',
                 category: 'Goûter',
+                quartier :'Quartier Latin',
                 content: '<b>Aux Merveilleux de Fred</b> : classique',
                 icon: './images/icons/dounoughts.png'
        },{
@@ -233,6 +235,7 @@ app.constant("myMarkers", [{
                 lng: 2.362532,
                 title: 'Bob’s Bake Shop',
                 category: 'Goûter',
+                quartier :'Canal St-Martin',
                 content: '<b>Bob’s Bake Shop </b> : tartes, bagels, toast, terrasse',
                 icon: './images/icons/hot-dog.png'
        },{ 
@@ -287,6 +290,7 @@ app.constant("myMarkers", [{
                 lat: 48.858413,
                 lng: 2.302294,
                 title: 'Fables de la Fontaine',
+                quartier :'Invalides/Champs de Mars',
                 category: 'Francais Chic',
                 content: '<b>Fables de la Fontaine</b> : restaurant gastro, pas cher',
                 icon: './images/icons/vine-glass.png'
@@ -295,7 +299,7 @@ app.constant("myMarkers", [{
                 lng: 2.344328,
                 title: 'Lengue',
                 category:'Japonais',
-                quartier :'Saint-Germain',
+                quartier :'Quartier Latin',
                 content: '<b>Lengue</b> : vrai japonais',
                 icon: './images/icons/sushi.png'
        },{
@@ -303,12 +307,14 @@ app.constant("myMarkers", [{
                 lng: 2.354449,
                 title: 'Restaurant A.T',
                 category:'Japonais',
+                quartier :'Quartier Latin',
                 content: '<b>Restaurant A.T </b> : japonais, fusion food, chic',
                 icon: './images/icons/tuxedo.png'
        },{
                 lat: 48.869122, 
                 lng: 2.368551,
                 title: 'Banh Me Tender',
+                quartier :'Canal St-Martin/République',
                 category:'Asiatique',
                 content: '<b>Banh Me Tender</b> : asian street food & vinyl corner',
                 icon: './images/icons/sushi.png'
@@ -415,4 +421,52 @@ app.constant("myMarkers", [{
                 quartier :'Saint-Germain',
                 content: '<b>Ikra</b> : bar/restaurant russe, avec musique',
                 icon: './images/icons/fish.png'
+       },{
+                lat: 48.852953, 
+                lng: 2.367431,
+                title: 'Bagel Way',
+                category: 'Americain',
+                quartier :'Marais-Bastille',
+                content: '<b>Bagel Way</b> : bagel, viande cacher, midi/goûter',
+                icon: './images/icons/bagel.png'
+       },{
+                lat: 48.854847, 
+                lng: 2.338514,
+                title: 'L\'heure Gourmande',
+                category: 'Brunch',
+                quartier :'Saint-Germain',
+                content: '<b>L\'heure Gourmande</b> : brunch, salon de thé, tous les jours',
+                icon: './images/icons/tea.png'
+       },{
+                lat: 48.849284, 
+                lng: 2.340271,
+                title: 'Regal',
+                category: 'Brunch',
+                quartier :'Saint-Germain',
+                content: '<b>Regal</b> : brunch/bistrot , branché, bar à vin',
+                icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.849284, 
+                lng: 2.340271,
+                title: 'Un Dimanche à Paris',
+                category: 'Brunch',
+                quartier :'Saint-Germain',
+                content: '<b>Un Dimanche à Paris</b> : salon de thé, style Angelina, brunch',
+                icon: './images/icons/tea.png'
+       },{
+                lat: 48.865503, 
+                lng: 2.303247,
+                title: 'Manko',
+                category: 'Péruvien',
+                quartier :'8e/17e',
+                content: '<b>Manko</b> : branché, péruvien, cabaret après',
+                icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.850670, 
+                lng: 2.271309,
+                title: 'L\'Acajou',
+                category: 'Francais Chic',
+                quartier :'16e',
+                content: '<b>L\'Acajou</b> : francais, branché, petites portions',
+                icon: './images/icons/vine-glass.png'
        }]);

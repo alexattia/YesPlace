@@ -75,6 +75,9 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
             var center = new google.maps.LatLng(args.lat, args.lng);
             map.panTo(center);
             map.setZoom(15);
+            var infowindow = new google.maps.InfoWindow();
+            infowindow.setContent(args.content);
+            infowindow.open(map, args);
             
         });
         function returnMarker(){
@@ -83,7 +86,7 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
         // show the map and place some markers
         initMap();
         
-        for (var i = 0; i < 60; i++) {
+        for (var i = 0; i < 100; i++) {
             setMarker(map, new google.maps.LatLng(myMarkers[i].lat, myMarkers[i].lng), myMarkers[i].title, myMarkers[i].content, myMarkers[i].icon);
         }
         
