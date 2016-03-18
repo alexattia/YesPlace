@@ -12,7 +12,7 @@
     margin-left: 4em;
     color: white;
     font-weight: 400;
-    width: 350px;
+    width: 300px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .myresearch .icon-search{
@@ -28,7 +28,7 @@
 .myresearch input{
     border-color: black;
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
 }
 .textr{
     position: absolute;
@@ -69,6 +69,22 @@
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
     }
+    .myresearch{
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: 400;
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+    .myresearch input{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     #gmaps {
     width: 23em;
     height: 23em;
