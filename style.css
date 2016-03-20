@@ -19,6 +19,17 @@
     padding-bottom: -5px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-left: -20px;
+}
+.noresto{
+    font-style: italic;
+    text-align: center;
+}
 .myresearch ::-webkit-input-placeholder{
     font-family: 'Roboto Condensed', sans-serif;
     color: black;

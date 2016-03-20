@@ -235,7 +235,7 @@ app.constant("myMarkers", [{
                 lng: 2.362532,
                 title: 'Bob’s Bake Shop',
                 category: 'Goûter',
-                quartier :'Canal St-Martin',
+                quartier :'Canal St-Martin/République',
                 content: '<b>Bob’s Bake Shop </b> : tartes, bagels, toast, terrasse',
                 icon: './images/icons/hot-dog.png'
        },{ 
@@ -259,7 +259,7 @@ app.constant("myMarkers", [{
                 lng: 2.365012,
                 title: 'Siseng',
                 category: 'Asiatique',
-                quartier :'Canal St-Martin/République',
+                quartier :'Canal St-Martin/République/République',
                 content: '<b>Siseng </b> : hamburger blanc, asiatique',
                 icon: './images/icons/hamburger2.png'
        },{
@@ -314,7 +314,7 @@ app.constant("myMarkers", [{
                 lat: 48.869122, 
                 lng: 2.368551,
                 title: 'Banh Me Tender',
-                quartier :'Canal St-Martin/République',
+                quartier :'Canal St-Martin/République/République',
                 category:'Asiatique',
                 content: '<b>Banh Me Tender</b> : asian street food & vinyl corner',
                 icon: './images/icons/sushi.png'
@@ -402,7 +402,7 @@ app.constant("myMarkers", [{
                 lng: 2.378819,
                 title: 'Salt Restaurant',
                 category: 'Bistrot',
-                quartier :'Canal St-Martin/République',
+                quartier :'Canal St-Martin/République/République',
                 content: '<b>Salt Restaurant</b> : bistot, specialisé poisson, midi/soir',
                 icon: './images/icons/fish.png'
        },{
@@ -469,4 +469,12 @@ app.constant("myMarkers", [{
                 quartier :'16e',
                 content: '<b>L\'Acajou</b> : francais, branché, petites portions',
                 icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.866412, 
+                lng: 2.369898,
+                title: 'Café Chilango',
+                category: 'Mexicain',
+                quartier :'Canal St-Martin/République',
+                content: '<b>Café Chilango</b> : mexicain, taco bar, animé, ',
+                icon: './images/icons/taco.png'
        }]);

@@ -26,11 +26,15 @@
         <div class="myresearch">
             <input placeholder="Search a restaurant" ng-model="search">
                 <div ng-show="search.length">
-                <p ng-repeat="marker in markers | filter: search"> 
+                <ul class="list" ng-repeat="marker in markers | filter: search as filtered"> 
+                    <li>
                     <span ng-click="centerMapOnMarker(marker)">
                     <img class="icon-search" ng-src="{{marker.icon}}" /> 
                     <label class="textr"> {{marker.title}} <label class="quartier">à {{marker.quartier}}</label> </label> </p>
                     </span>
+                    </li>
+                </ul>
+                    <p class="noresto" ng-hide="filtered.length"> No restaurant found</p>
                 </div>
         </div>
         
