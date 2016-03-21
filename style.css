@@ -26,6 +26,13 @@ ul{
 li{
     margin-left: -20px;
 }
+/*.resto-img{
+    display: inline-block;
+    margin-left: auto;
+    padding-left: 200px;
+    width: 38px;
+    height: 38px;
+}*/
 .noresto{
     font-style: italic;
     text-align: center;
@@ -42,7 +49,9 @@ li{
     width: 250px;
 }
 .textr{
+    display: inline-block;
     position: absolute;
+/*    width: 190px;*/
     padding-top: 6px;
     padding-left: 2px;
     color: white;

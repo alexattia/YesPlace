@@ -45,7 +45,7 @@ app.constant("myMarkers", [{
                 title:'Colorova', 
                 category: 'Brunch',
                 quartier :'Luxembourg-Sèvres',
-                content:'<b>Colorova </b> : Pâtisserie, Brunch ou Gouter très sympa',
+                content:'<b>Colorova </b> : Pâtisserie, Brunch ou goûter très sympa',
                 icon:'./images/icons/cookies.png'
         },{
                 lat: 48.854928, 
@@ -369,7 +369,7 @@ app.constant("myMarkers", [{
                 lat:48.846617, 
                 lng: 2.369001,
                 title: 'She\’s Cake',
-                category:'Gouter',
+                category:'Goûter',
                 quartier :'Marais-Bastille',
                 content: '<b>She\’s Cake</b> : meilleur cheesecake Paris',
                 icon: './images/icons/cookies.png'
@@ -475,6 +475,15 @@ app.constant("myMarkers", [{
                 title: 'Café Chilango',
                 category: 'Mexicain',
                 quartier :'Canal St-Martin/République',
-                content: '<b>Café Chilango</b> : mexicain, taco bar, animé, ',
-                icon: './images/icons/taco.png'
+                content: '<b>Café Chilango</b> : mexicain, taco bar, animé',
+                icon: './images/icons/taco.png',
+                img:'./images/chillango.png'
+       },{
+                lat: 48.855719, 
+                lng: 2.362830,
+                title: 'La Mangerie',
+                category: 'Bistrot',
+                quartier :'Marais-Bastille',
+                content: '<b>La Mangerie</b> : tapas originaux, animé, bcp de viande',
+                icon: './images/icons/hot-dog.png'
        }]);

@@ -30,8 +30,9 @@
                     <li>
                     <span ng-click="centerMapOnMarker(marker)">
                     <img class="icon-search" ng-src="{{marker.icon}}" /> 
-                    <label class="textr"> {{marker.title}} <label class="quartier">à {{marker.quartier}}</label> </label> </p>
+                    <label class="textr"> {{marker.title}} <label class="quartier">à {{marker.quartier}}</label> </label> 
                     </span>
+                    <!-- <img class="resto-img" ng-src="{{marker.img}}"/> -->
                     </li>
                 </ul>
                     <p class="noresto" ng-hide="filtered.length"> No restaurant found</p>
