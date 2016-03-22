@@ -486,4 +486,28 @@ app.constant("myMarkers", [{
                 quartier :'Marais-Bastille',
                 content: '<b>La Mangerie</b> : tapas originaux, animé, bcp de viande',
                 icon: './images/icons/hot-dog.png'
+       },{
+                lat: 48.854975, 
+                lng: 2.337910,
+                title: 'Prescription',
+                category: 'Bar',
+                quartier :'Saint-Germain',
+                content: '<b>Prescription/b> : bar à cocktail',
+                icon: './images/icons/cocktail.png'
+       },{
+                lat: 48.857403, 
+                lng: 2.359054,
+                title: 'As du Falafel',
+                category: 'Cacher',
+                quartier :'Marais-Bastille',
+                content: '<b>As du Falafel/b> : israelien, cacher',
+                icon: './images/icons/meat.png'
+       },{
+                lat: 48.863016, 
+                lng: 2.363991,
+                title: 'Ob-La-Di',
+                category: 'Cacher',
+                quartier :'Marais-Bastille',
+                content: '<b>Ob-La-Di/b> : coffee shop, toast, bio, granolat',
+                icon: './images/icons/tea.png'
        }]);
