@@ -24,7 +24,7 @@
         <div my-map=""></div>
         
         <div class="myresearch">
-            <input placeholder="Search a restaurant" ng-model="search">
+            <input placeholder="Enter a keyword" ng-model="search">
                 <div ng-show="search.length">
                 <ul class="list" ng-repeat="marker in markers | filter: search as filtered"> 
                     <li>

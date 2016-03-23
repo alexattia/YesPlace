@@ -26,7 +26,7 @@ app.directive('myMap', ["myMarkers", function(myMarkers) {
         
         // map config
         var mapOptions = {
-            center: new google.maps.LatLng(48.855005, 2.342674),
+            center: new google.maps.LatLng(48.856405, 2.342674),
             zoom: 14,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: true

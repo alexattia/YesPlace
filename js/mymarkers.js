@@ -492,7 +492,7 @@ app.constant("myMarkers", [{
                 title: 'Prescription',
                 category: 'Bar',
                 quartier :'Saint-Germain',
-                content: '<b>Prescription/b> : bar à cocktail',
+                content: '<b>Prescription</b> : bar à cocktail',
                 icon: './images/icons/cocktail.png'
        },{
                 lat: 48.857403, 
@@ -500,7 +500,7 @@ app.constant("myMarkers", [{
                 title: 'As du Falafel',
                 category: 'Cacher',
                 quartier :'Marais-Bastille',
-                content: '<b>As du Falafel/b> : israelien, cacher',
+                content: '<b>As du Falafel</b> : israelien, cacher',
                 icon: './images/icons/meat.png'
        },{
                 lat: 48.863016, 
@@ -508,6 +508,6 @@ app.constant("myMarkers", [{
                 title: 'Ob-La-Di',
                 category: 'Cacher',
                 quartier :'Marais-Bastille',
-                content: '<b>Ob-La-Di/b> : coffee shop, toast, bio, granolat',
+                content: '<b>Ob-La-Di</b> : coffee shop, toast, bio, granolat',
                 icon: './images/icons/tea.png'
        }]);

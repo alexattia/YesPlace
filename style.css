@@ -42,11 +42,13 @@ li{
     color: black;
     text-align: center;
     opacity:  0.9;
+    font-size: 13px;
 }
 .myresearch input{
     border-color: black;
     border-radius: 10px;
     width: 250px;
+    height: 18px;
 }
 .textr{
     display: inline-block;
@@ -102,12 +104,12 @@ li{
     .myresearch input{
     margin-top: 10px;
     display: block;
-    margin-left: auto;
+    margin-left: 5em;
     margin-right: auto;
 }
     #gmaps {
-    width: 23em;
-    height: 23em;
+    width: 22em;
+    height: 22em;
     display: block;
     margin-left: auto;
     margin-right: auto
