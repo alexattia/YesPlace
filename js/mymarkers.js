@@ -94,7 +94,7 @@ app.constant("myMarkers", [{
                 category: 'Goûter',
                 quartier :'Saint-Germain',
                 content: '<b>Eclair de Genie</b> : à emporter', 
-                icon: './images/icons/cookies.png'
+                icon: './images/icons/dounoughts.png'
        },{
                 lat: 48.852098, 
                 lng: 2.346457,
@@ -181,7 +181,7 @@ app.constant("myMarkers", [{
                 title: 'Café Atelier',
                 category: 'Brunch',
                 quartier :'Luxembourg-Sèvres',
-                content: '<b>Café Atelier </b> : bistro, brunch, bon',
+                content: '<b>Café Atelier </b> : bistrot, brunch, bon',
                 icon: './images/icons/brunch.png' 
        },{
                 lat: 48.844593, 
@@ -403,7 +403,7 @@ app.constant("myMarkers", [{
                 title: 'Salt Restaurant',
                 category: 'Bistrot',
                 quartier :'Canal St-Martin/République/République',
-                content: '<b>Salt Restaurant</b> : bistot, specialisé poisson, midi/soir',
+                content: '<b>Salt Restaurant</b> : bistrot, specialisé poisson, midi/soir',
                 icon: './images/icons/fish.png'
        },{
                 lat: 48.862198, 
@@ -510,4 +510,20 @@ app.constant("myMarkers", [{
                 quartier :'Marais-Bastille',
                 content: '<b>Ob-La-Di</b> : coffee shop, toast, bio, granolat',
                 icon: './images/icons/tea.png'
+       },{
+                lat: 48.863604,
+                lng: 2.367232,
+                title: 'Clown Bar',
+                category: 'Bistrot',
+                quartier :'Marais-Bastille',
+                content: '<b>Clown Bar</b> : bistrot, branché, simple, raffiné',
+                icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.853939, 
+                lng: 2.323981,
+                title: 'Jacques Genin',
+                category: 'Goûter',
+                quartier :'Luxembourg-Sèvres',
+                content: '<b>Jacques Genin</b> : chocolatier, patisserie, confiserie',
+                icon: './images/icons/cookies.png'
        }]);
