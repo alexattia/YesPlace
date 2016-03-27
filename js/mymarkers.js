@@ -526,4 +526,12 @@ app.constant("myMarkers", [{
                 quartier :'Luxembourg-Sèvres',
                 content: '<b>Jacques Genin</b> : chocolatier, patisserie, confiserie',
                 icon: './images/icons/cookies.png'
+       },{
+                lat: 48.855178,
+                lng: 2.330282,
+                title: 'Clover',
+                category: 'Francais Chic',
+                quartier :'Saint-Germain',
+                content: '<b>Clover</b> : francais, gastro, à reserver',
+                icon: './images/icons/tuxedo.png'
        }]);
