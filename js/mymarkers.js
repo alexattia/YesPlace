@@ -534,4 +534,12 @@ app.constant("myMarkers", [{
                 quartier :'Saint-Germain',
                 content: '<b>Clover</b> : francais, gastro, à reserver',
                 icon: './images/icons/tuxedo.png'
+       },{
+                lat: 48.8506042,
+                lng: 2.3707001,
+                title: 'Blé Sucré',
+                category: 'Boulangerie Patisserie',
+                quartier :'Marais-Bastille',
+                content: '<b>Blé Sucré</b> : patisserie avec terrasse, sandwich, journée',
+                icon: './images/icons/cookies.png'
        }]);
