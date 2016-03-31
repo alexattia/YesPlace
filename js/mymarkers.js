@@ -542,4 +542,12 @@ app.constant("myMarkers", [{
                 quartier :'Marais-Bastille',
                 content: '<b>Blé Sucré</b> : patisserie avec terrasse, sandwich, journée',
                 icon: './images/icons/cookies.png'
+       },{
+                lat: 48.8560346,
+                lng: 2.3228416,
+                title: 'Marzo',
+                category: 'Italien',
+                quartier :'Saint-Germain',
+                content: '<b>Marzo/b> : pizzeria, même cuisinier que Pizza Chic, dimanche'
+                icon: './images/icons/pizza2.png'
        }]);
