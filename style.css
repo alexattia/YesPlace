@@ -92,25 +92,33 @@ li{
     font-family: 'Ubuntu', sans-serif;
     }
     .myresearch{
-    display: block;
+    display: inline)block;
     position: center;
     margin-left: auto;
     margin-right: auto;
     color: white;
     font-weight: 400;
-    width: 300px;
+    width: 22.5em;;
     font-family: 'Roboto Condensed', sans-serif;
     }
     .myresearch input{
     margin-top: 10px;
     display: block;
-    margin-left: 5em;
+    margin-left: 1em;
     margin-right: auto;
+    }
+    li{
+    margin-left: -20px;
+    height: 35px;
+    }
+    .myresearch .icon-search{
+    padding-bottom: -5px;
+    height: 40px;
 }
     #gmaps {
-    width: 22em;
-    height: 22em;
-    display: block;
+    width: 22.5em;
+    height: 14em;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto
     }

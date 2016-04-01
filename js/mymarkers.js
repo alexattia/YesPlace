@@ -548,6 +548,6 @@ app.constant("myMarkers", [{
                 title: 'Marzo',
                 category: 'Italien',
                 quartier :'Saint-Germain',
-                content: '<b>Marzo/b> : pizzeria, même cuisinier que Pizza Chic, dimanche'
+                content: '<b>Marzo/b> : pizzeria, même cuisinier que Pizza Chic, dimanche',
                 icon: './images/icons/pizza2.png'
        }]);
