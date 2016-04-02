@@ -259,7 +259,7 @@ app.constant("myMarkers", [{
                 lng: 2.365012,
                 title: 'Siseng',
                 category: 'Asiatique',
-                quartier :'Canal St-Martin/République/République',
+                quartier :'Canal St-Martin/République',
                 content: '<b>Siseng </b> : hamburger blanc, asiatique',
                 icon: './images/icons/hamburger2.png'
        },{
@@ -314,7 +314,7 @@ app.constant("myMarkers", [{
                 lat: 48.869122, 
                 lng: 2.368551,
                 title: 'Banh Me Tender',
-                quartier :'Canal St-Martin/République/République',
+                quartier :'Canal St-Martin/République/Nation',
                 category:'Asiatique',
                 content: '<b>Banh Me Tender</b> : asian street food & vinyl corner',
                 icon: './images/icons/sushi.png'
@@ -402,7 +402,7 @@ app.constant("myMarkers", [{
                 lng: 2.378819,
                 title: 'Salt Restaurant',
                 category: 'Bistrot',
-                quartier :'Canal St-Martin/République/République',
+                quartier :'Canal St-Martin/République/Nation',
                 content: '<b>Salt Restaurant</b> : bistrot, specialisé poisson, midi/soir',
                 icon: './images/icons/fish.png'
        },{
@@ -550,4 +550,12 @@ app.constant("myMarkers", [{
                 quartier :'Saint-Germain',
                 content: '<b>Marzo/b> : pizzeria, même cuisinier que Pizza Chic, dimanche',
                 icon: './images/icons/pizza2.png'
+       },{
+                lat: 48.8535622,
+                lng: 2.3808226,
+                title: 'Clamato',
+                category: 'Francais',
+                quartier :'Canal St-Martin/République/Nation',
+                content: '<b>Clamato/b> : bon resto de poisson, fruits de mer, branché',
+                icon: './images/icons/fish.png'
        }]);
