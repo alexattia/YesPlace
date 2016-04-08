@@ -548,7 +548,7 @@ app.constant("myMarkers", [{
                 title: 'Marzo',
                 category: 'Italien',
                 quartier :'Saint-Germain',
-                content: '<b>Marzo/b> : pizzeria, même cuisinier que Pizza Chic, dimanche',
+                content: '<b>Marzo</b> : pizzeria, même cuisinier que Pizza Chic, dimanche',
                 icon: './images/icons/pizza2.png'
        },{
                 lat: 48.8535622,
@@ -556,6 +556,22 @@ app.constant("myMarkers", [{
                 title: 'Clamato',
                 category: 'Francais',
                 quartier :'Canal St-Martin/République/Nation',
-                content: '<b>Clamato/b> : bon resto de poisson, fruits de mer, branché',
+                content: '<b>Clamato</b> : bon resto de poisson, fruits de mer, branché',
                 icon: './images/icons/fish.png'
+       },{
+                lat: 48.8655806,
+                lng: 2.3369467,
+                title: 'Ellsworth',
+                category: 'Francais',
+                quartier :'Louvre/Palais-Royal',
+                content: '<b>Ellsworth</b> : diner raffiné, francais, américain, brunch',
+                icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.861717,
+                lng: 2.365049,
+                title: 'Le Mary Celeste',
+                category: 'Francais',
+                quartier :'Marais-Bastille',
+                content: '<b>Le Mary Celeste</b> : bar à cocktails et restaurant branché, poissons',
+                icon: './images/icons/cocktail.png'
        }]);
