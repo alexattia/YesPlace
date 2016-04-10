@@ -574,4 +574,12 @@ app.constant("myMarkers", [{
                 quartier :'Marais-Bastille',
                 content: '<b>Le Mary Celeste</b> : bar à cocktails et restaurant branché, poissons',
                 icon: './images/icons/cocktail.png'
+       },{
+                lat: 48.8341004,
+                lng: 2.3221806,
+                title: 'Les Rouquins',
+                category: 'Francais',
+                quartier :'Luxembourg-Sèvres',
+                content: '<b>Les Rouquins</b> : bar à vins, fromages',
+                icon: './images/icons/vine-glass.png'
        }]);
