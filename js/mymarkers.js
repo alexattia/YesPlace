@@ -582,4 +582,28 @@ app.constant("myMarkers", [{
                 quartier :'Luxembourg-Sèvres',
                 content: '<b>Les Rouquins</b> : bar à vins, fromages',
                 icon: './images/icons/vine-glass.png'
+       },{
+                lat: 48.854011,
+                lng: 2.367285,
+                title: 'Icho',
+                category: 'Japonais',
+                quartier :'Marais-Bastille',
+                content: '<b>Icho</b> : brasserie japonaise à la francaise, chirashi, à emporter',
+                icon: './images/icons/sushi-2.png'
+       },{
+                lat: 48.854011,
+                lng: 2.367285,
+                title: 'Coutume Café',
+                category: 'Goûter',
+                quartier :'Luxembourg-Sèvres',
+                content: '<b>Coutume Café</b> : caffé, brunch, patisserie',
+                icon: './images/icons/tea.png'
+       },{
+                lat: 48.8868764,
+                lng: 2.3445768,
+                title: 'Hardware Société',
+                category: 'Dejeuner',
+                quartier :'Pigalle-Montmartre',
+                content: '<b>Hardware Société</b> : coffee shop, brunch, dejeuner',
+                icon: './images/icons/tea.png'
        }]);
