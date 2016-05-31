@@ -606,4 +606,28 @@ app.constant("myMarkers", [{
                 quartier :'Pigalle-Montmartre',
                 content: '<b>Hardware Société</b> : coffee shop, brunch, dejeuner',
                 icon: './images/icons/tea.png'
+       },{
+                lat: 48.8494184,
+                lng: 2.3748206,
+                title: 'Passerini Restaurant & Co',
+                category: 'Italien',
+                quartier :'Marais-Bastille',
+                content: '<b>Passerini Restaurant & Co</b> : pâtes fraiches, dejeuner frais',
+                icon: './images/icons/pasta2.png'
+       },{
+                lat: 48.8712376,
+                lng: 2.3416972,
+                title: 'Noglu',
+                category: 'Patisserie',
+                quartier :'Rivoli-Opera',
+                content: '<b>Noglu</b> : sans gluten, restaurant patisserie, à emporter',
+                icon: './images/icons/hot-dog.png'
+       },{
+                lat: 48.880683,
+                lng: 2.335054,
+                title: 'Ito',
+                category: 'Japonais',
+                quartier :'Pigalle-Montmartre',
+                content: '<b>Ito</b> : tapas raffinés japonais, ramen',
+                icon: './images/icons/sushi-3.png'
        }]);
